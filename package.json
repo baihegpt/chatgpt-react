@@ -1,7 +1,7 @@
 {
-  "name": "gpt",
+  "name": "AI-baihe",
   "version": "1.0.0",
-  "author": "Shezhangzhang",
+  "author": "baihe",
   "description": "Deploy your private ChatGPT!",
   "scripts": {
     "dev": "next dev -p 3007",
