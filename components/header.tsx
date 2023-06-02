@@ -21,7 +21,7 @@ export default function Header(props: Props) {
       </Head>
 
       <header className="shwdow-2xl fixed z-10 flex h-16 w-screen items-center justify-between bg-white px-4 text-slate-800 shadow dark:bg-black dark:text-slate-100">
-        <h1 className="text-2xl font-bold">答案之书 ---by 白鹤</h1>
+        <h1 className="text-2xl font-bold">答案之书 ---by Baihe</h1>
         <div
           className="cursor-pointer text-slate-100"
           onClick={() => {
