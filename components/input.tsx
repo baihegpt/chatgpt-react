@@ -179,8 +179,8 @@ export default function Input(props: Props) {
         className="w-full rounded-md border-2 border-gray-300 p-3 shadow-sm focus:border-black focus:outline-0 dark:border-gray-700 dark:bg-slate-900 dark:focus:border-gray-600"
         placeholder={
           submitLoading
-            ? "Waiting..."
-            : `Ask me anything.${isMobile ? "" : " (cmd + enter to submit)"}`
+            ? "你心里已经有了答案"
+            : `盛开或者不盛开的都是玫瑰.${isMobile ? "" : " (cmd + enter to submit)"}`
         }
         onKeyDown={handleKeyDown}
       />
