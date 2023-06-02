@@ -28,7 +28,7 @@ export default function Login() {
       } else {
         setInput("");
         setIsError(true);
-        setErrMsg("wrong password.");
+        setErrMsg("这不是正确的钥匙.");
       }
       setLoading(false);
     } catch (error) {
