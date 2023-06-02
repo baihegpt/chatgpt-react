@@ -14,14 +14,14 @@ export default function Header(props: Props) {
   return (
     <div>
       <Head>
-        <title>shezhangzhang.com</title>
-        <meta name="description" content="This app is just for CK's friends." />
+        <title>答案之书</title>
+        <meta name="description" content="最好等待" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <header className="shwdow-2xl fixed z-10 flex h-16 w-screen items-center justify-between bg-white px-4 text-slate-800 shadow dark:bg-black dark:text-slate-100">
-        <h1 className="text-2xl font-bold">ChatGPT</h1>
+        <h1 className="text-2xl font-bold">答案之书——baihe</h1>
         <div
           className="cursor-pointer text-slate-100"
           onClick={() => {
