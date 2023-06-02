@@ -52,7 +52,7 @@ export default function Login() {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           className="mb-1 mt-5 w-full rounded-md border-2 border-gray-300 p-3 shadow-sm focus:border-black focus:outline-0 dark:border-gray-700 dark:bg-slate-900 dark:focus:border-gray-600"
-          placeholder={"Ask me for the password. "}
+          placeholder={"盛开或者不盛开的都是玫瑰。 "}
           type="password"
           onKeyDown={handleKeyDown}
         />
