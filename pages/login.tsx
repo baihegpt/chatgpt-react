@@ -67,7 +67,7 @@ export default function Login() {
         onClick={handleLogin}
         disabled={loading}
       >
-        {loading ? "Waiting" : "GO"}
+        {loading ? "正在翻开书籍" : "开启答案之书"}
       </button>
     </div>
   );
