@@ -180,7 +180,7 @@ export default function Input(props: Props) {
         placeholder={
           submitLoading
             ? "你心里已经有了答案"
-            : `盛开或者不盛开的都是玫瑰.${isMobile ? "" : " (cmd + enter to submit)"}`
+            : `盛开或者不盛开的都是玫瑰.${isMobile ? "" : " (创意交流v：15522668322)"}`
         }
         onKeyDown={handleKeyDown}
       />
